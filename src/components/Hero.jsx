@@ -1,32 +1,38 @@
 import React, { useEffect, useState } from "react";
-import Item from "./Item";
+import './Hero.css'
 
-const Hero = async () => {
+const Hero = () => {
   const [records, setRecords] = useState([]);
 
   useEffect(() => {
     fetch(`https://www.omdbapi.com/?apikey=87f0865a&s=don&page=1`)
-      .then(response => response.json())
-      .then(data => {
+      .then((response) => response.json())
+      .then((data) => {
         if (data.Search) {
           setRecords(data.Search);
         }
       })
-      .catch(err => console.log(err));
+      .catch((err) => console.log(err));
   }, []);
 
   return (
-    <div className="new-collections">
-      <div className="collections">
-        {records.map((item, i) => (
-          <div key={i}>
-            <img src={item.Poster} alt={item.Title} />
-            <div>{item.Title}</div>
-            <div>{item.Year}</div>
-          </div>
-        ))}
-      </div>
-    </div>
+    <>
+      {records.map((item) => {
+        return (
+          <>
+            <div className="card">
+              <img src={item.Poster} alt={item.Title} />
+              <div className="card-body">
+                <h5 className="card-title">{item.Title}</h5>
+                <p className="card-text">
+                  {item.Year}
+                </p>
+              </div>
+            </div>
+          </>
+        );
+      })}
+    </>
   );
 };
 
