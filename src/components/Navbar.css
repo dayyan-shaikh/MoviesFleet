@@ -1,0 +1,11 @@
+form{
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.search{
+    width: 80%;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
