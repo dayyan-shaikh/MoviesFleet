@@ -1,0 +1,21 @@
+.container{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.card{
+    top: 20%;
+    margin: 30px 30px;
+}
+
+img{
+    border-radius: 5px;
+    aspect-ratio: 3/2;
+    height: 60vh;  
+}
+
+h5,p{
+    text-align: center;
+}
