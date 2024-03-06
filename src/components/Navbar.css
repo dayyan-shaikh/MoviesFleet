@@ -1,3 +1,9 @@
+.head h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 3rem;
+}
+
 form{
     width: 50%;
     margin-left: 30%;

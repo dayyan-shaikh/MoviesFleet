@@ -1,5 +1,5 @@
 .container{
-    width: 50%;
+    width: 60%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
@@ -8,6 +8,7 @@
 .card{
     top: 20%;
     margin: 30px 30px;
+    border-radius: 20px;
 }
 
 img{
@@ -18,4 +19,8 @@ img{
 
 h5,p{
     text-align: center;
+}
+
+.card-body{
+    background: #373131;
 }
