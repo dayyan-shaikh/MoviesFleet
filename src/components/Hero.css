@@ -17,10 +17,29 @@ img{
     height: 60vh;  
 }
 
-h5,p{
+.white{
     text-align: center;
+    color: rgb(212, 212, 212);
 }
 
 .card-body{
     background: #373131;
+}
+
+.head h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 3rem;
+}
+
+form{
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.search{
+    width: 80%;
+    padding: 15px 15px;
+    border-radius: 30px;
 }
