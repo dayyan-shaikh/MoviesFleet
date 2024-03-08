@@ -43,7 +43,7 @@ const Hero = () => {
       <div className="container">
         {records.map((item, i) => {
           return (
-            <div key={i} className="card" style={{ width: "18.7rem" }}>
+            <div key={i} className="card" style={{ width: "17rem" }}>
               <img src={item.Poster} alt={item.Title} />
               <div className="card-body">
                 <h5 className="white">{item.Title}</h5>
