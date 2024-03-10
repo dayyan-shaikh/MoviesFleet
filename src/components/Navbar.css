@@ -1,17 +1,5 @@
-.head h1{
+h1{
     text-align: center;
-    color: aliceblue;
-    font-size: 3rem;
+    color: rgb(99, 12, 12);
 }
 
-form{
-    width: 50%;
-    margin-left: 30%;
-    margin-top: 10%;
-}
-
-.search{
-    width: 80%;
-    padding: 15px 15px;
-    border-radius: 30px;
-}

@@ -8,12 +8,10 @@
 .card{
     top: 20%;
     margin: 30px 30px;
-    /* border-radius: 20px; */
  
 }
 
 img{
-    /* border-radius: 5px; */
     aspect-ratio: 3/2;
     height: 45vh;  
 }
