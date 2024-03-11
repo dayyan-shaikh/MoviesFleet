@@ -5,4 +5,6 @@ body{
     font-style: normal;
 }
 
-  
+body::-webkit-scrollbar{
+    display: none;
+  }
