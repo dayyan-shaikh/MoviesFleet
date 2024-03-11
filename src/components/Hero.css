@@ -8,13 +8,17 @@
 .card{
     top: 20%;
     margin: 30px 30px;
- 
+    cursor: pointer;
+   
 }
 
 img{
     aspect-ratio: 3/2;
     height: 45vh;  
+    cursor: pointer;
 }
+
+
 
 .white{
     text-align: center;
@@ -34,7 +38,7 @@ img{
 form{
     width: 50%;
     margin-left: 30%;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 .search{
