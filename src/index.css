@@ -19,6 +19,12 @@ body::-webkit-scrollbar {
     width: 90%;
   }
 
+  .container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 25px;
+  }
+
   .btn {
     margin-left: 110px;
     margin-top: 20px;
