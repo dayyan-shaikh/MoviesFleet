@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="footer">
         <span className="creator">
           <a href="http://localhost:5173/" target="_blank">
-            {" "}
-            Dayyan Shaikh{" "}
-          </a>
+            
+            Dayyan Shaikh
+            </a>
         </span>
         <ul className="social-network social-circle">
           <li>

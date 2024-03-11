@@ -1,10 +1,38 @@
-body{
-    background: #C7C8CC;
-    font-family: "Kaushan Script", cursive;
-    font-weight: 400;
-    font-style: normal;
+body {
+  background: #c7c8cc;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
-body::-webkit-scrollbar{
-    display: none;
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .app {
+    padding: 2rem 1rem;
   }
+
+  .form {
+    margin-left: 50px;
+    width: 90%;
+  }
+
+  .btn {
+    margin-left: 110px;
+    margin-top: 20px;
+    width: 40%;
+  }
+
+  .form input {
+    font-size: 1rem;
+  }
+
+  .card img {
+    width: 270px;
+    height: 270px;
+  }
+
+  
+}

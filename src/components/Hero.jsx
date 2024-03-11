@@ -27,7 +27,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <>
+    <div className="app">
       <form className="form" role="search">
         <input
           className="search"
@@ -53,7 +53,7 @@ const Hero = () => {
           );
         })}
       </div>
-    </>
+    </div>
   );
 };
 

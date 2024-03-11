@@ -129,12 +129,19 @@
   @media screen and (max-width: 500px) {
     ul.social-network li {
       display: inline;
+      width: 100%;
       margin: 0 5px;
+      
+    }
+
+    .creator a{
+      font-size: 15px;
     }
   }
   @media screen and (max-width: 450px) {
     ul.social-network li {
-      display: inline;
+      display: inline;  
+      width: 100%;
       margin: 0 5px;
     }
     .social-circle li a {
