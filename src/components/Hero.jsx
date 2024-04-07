@@ -30,7 +30,8 @@ const Hero = () => {
     <div className="app">
       <form className="form" role="search">
         <input
-          className="search"
+        
+          className="form-control"
           type="search"
           placeholder="Search"
           onChange={(e) => setSearchTerm(e.target.value)}

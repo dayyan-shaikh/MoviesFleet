@@ -9,26 +9,27 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media(max-width: 500px) {
   .app {
     padding: 2rem 1rem;
   }
 
   .form {
     margin-left: 50px;
-    width: 90%;
+    width: 70%;
   }
 
   .container{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 25px;
   }
+  
 
   .btn {
     margin-left: 110px;
     margin-top: 20px;
-    width: 40%;
+    width: 35%;
   }
 
   .form input {
@@ -40,5 +41,41 @@ body::-webkit-scrollbar {
     height: 270px;
   }
 
-  
 }
+
+/* @media(max-width: 1180px) {
+  .app {
+    padding: 2rem 1rem;
+    margin-right: 11rem;
+  }
+
+  .form {
+    margin-left: 10em;
+    width: 80%;
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+  
+
+  .btn {
+    margin-left: 20em;
+    margin-top: 20px;
+    width: 18%;
+  }
+
+  .form input {
+    font-size: 1.5rem;
+  }
+
+  .card img {
+    width: 270px;
+    height: 270px;
+  }
+
+ 
+
+} */

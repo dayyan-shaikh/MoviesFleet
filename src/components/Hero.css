@@ -36,17 +36,11 @@ img{
 }
 
 form{
-    width: 50%;
+    width: 38%;
     margin-left: 30%;
     margin-top: 8%;
 }
-
-.search{
-    width: 80%;
-    padding: 15px 15px;
-    border-radius: 30px;
-}
-
+    
 .btn{
     width: 100px;
     margin-left: 45%;

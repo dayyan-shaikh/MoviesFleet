@@ -52,7 +52,7 @@ const Footer = () => {
               <i className="fab fa-facebook"></i>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               className="icoInstagram"
               href="https://www.instagram.com/dayyan__shk/"
@@ -61,7 +61,7 @@ const Footer = () => {
             >
               <i className="fab fa-instagram"></i>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
